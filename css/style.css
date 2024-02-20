@@ -1,0 +1,192 @@
+html{
+    height: 100vh;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    font-size: 15px;
+    height: 80%;
+    /* display: block; */
+}
+.text{ 
+
+    /* position: relative; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;  
+    padding-top: 50px; 
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    display:     flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: hsl(234, 12%, 34%);
+    font-size: xx-large
+}
+.text .par{
+    margin: 0 auto;
+    text-align: center;
+    width: 30%;
+}
+.main
+{   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   padding: 30px auto;
+   width: 80%;
+   margin: 0 auto;
+}
+
+.text2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;   
+
+}
+.text1{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal; 
+    color: rgba(67, 67, 67, 0.664)
+}
+.text .text2 ,.text1{
+    margin: 10px;
+    width: 100%;
+    color: #202020;
+}
+.par{ font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    font-size: small;
+    width: 100%;
+}
+.child {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 25%;
+    padding: 10px;
+    height: 70vh;
+    position: relative;
+}
+.child img{
+   position: absolute;
+   right: 20px;
+   bottom: 20px;
+}
+.child .middle2{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+.child .middle1{
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+
+}
+.child .child2,.child1{
+    /* display: block; */
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+
+}
+.child2,.child1,.middle1,.middle2{
+    box-shadow:  -1px 5px 10px 7px #d3d3d399;
+    border-radius: 7px;
+    height: 200px;
+    padding: 30px;
+    text-align: left;
+    border-top:solid 5px;
+
+}
+.child2,.child1,.middle1,.middle2   p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    font-size: 15px;
+    color: hsl(234, 12%, 34%);
+
+}
+.middle1{
+    border-top-color: hsl(0, 78%, 62%);
+}
+.middle2{
+    border-top-color: hsl(34, 97%, 64%);
+}
+.child1{
+    border-top-color: hsl(180, 62%, 55%);
+
+}
+.child2{
+    border-top-color: hsl(212, 86%, 64%);
+}
+.attribution { 
+    background-color: hsl(0, 1%, 57%);
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    bottom:0;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    margin: 0;
+ }
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+.attribution a:hover { 
+    color: hsl(0, 0%, 8%);
+}
+.attribution img{
+    width: 20px;
+    margin-left: 5px;
+}
+@media screen and (max-width: 768px) {
+   
+    html,body,main{
+        height: auto;
+    }
+    .child {
+        width: 100%;
+        margin: 0;
+        height: auto;
+        padding: auto 0;
+    }
+    .child1 ,.child2,.middle1,.middle2{
+        padding: 10px;
+    }
+    .child1 h4,.child2 h4,.middle1 h4,.middle2  h4{
+        margin-top: 0;
+    }
+    .text{
+        padding: 40px 20px;
+        font-size: large;
+    }
+    .text .text2 ,.text1{
+        font-size: large;
+        margin: 5px;
+        width: 100%;
+
+    }
+    .text .par{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+    }
+    .attribution{
+        font-size: 10px;
+        padding: 2px;
+        position: relative;
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+}
